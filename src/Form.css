@@ -1,0 +1,80 @@
+#Form {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2rem;
+    height: auto;
+    background-color: rgb(224, 224, 178);
+}
+
+label {
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+    margin-top: 1rem;
+}
+
+input {
+    display: inline-block;
+    float: left;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    outline: none;
+}
+
+h3 {
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.main {
+    margin-right: 5rem;
+}
+
+button {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    width: 8rem;
+    height: 2.2rem;
+    border: 1px solid rgb(174, 185, 145);
+    background-color: rgb(76, 83, 56);
+    color: white;
+    border-radius: 3px;
+    outline: none;
+}
+
+button:hover {
+    background-color: rgb(123, 134, 93);
+    color: white;
+}
+
+#orderId {
+    text-transform: uppercase;
+}
+
+#panNum {
+    text-transform: uppercase;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#details {
+    width: 13rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .btn {
+        position: absolute;
+        left: 18rem;
+    }
+}

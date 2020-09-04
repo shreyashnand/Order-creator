@@ -1,0 +1,28 @@
+#Table {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+td,
+th {
+    border: 1px solid black;
+    padding: 8px;
+    width: 12rem;
+    border-radius: 3px 3px 3px 3px;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: auto;
+    border-radius: 3px;
+}
+
+#od {
+    text-transform: uppercase;
+}
+
+#pn {
+    text-transform: uppercase;
+}

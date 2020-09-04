@@ -1,0 +1,46 @@
+.modal {
+    border: 1px solid rgb(219, 181, 100);
+    position: absolute;
+    left: 18rem;
+    height: 38rem;
+    top: 1rem;
+    width: 50rem;
+    background-color: rgb(221, 188, 117);
+    border-radius: 5px;
+}
+
+.modal-content {
+    position: relative;
+    left: 5rem;
+    width: 40rem;
+    top: 2rem;
+}
+
+.btn {
+    position: absolute;
+    left: 70rem;
+    background-color: rgb(192, 164, 39);
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+
+td,
+th {
+    width: 8rem;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .btn {
+        position: absolute;
+        left: 18rem;
+    }
+}
+
+@media (min-width:605px) and (max-width:900px) {
+    .btn {
+        position: absolute;
+        left: 30rem;
+    }
+}
